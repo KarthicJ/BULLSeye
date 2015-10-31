@@ -71,6 +71,8 @@ script:
 # deploy to xran after integration tests
 after_success:
   - export R_PKG="$(basename $TRAVIS_REPO_SLUG)"
+  - cat /home/travis/build/KarthicJ/BULLSeye.Rcheck/00check.log
+  - cat /home/travis/build/KarthicJ/BULLSeye.Rcheck/00install.out
 
 after_failure:
   - cp ${RCHECK_DIR}/00check.log https://github.com/KarthicJ/BULLSeye/R
