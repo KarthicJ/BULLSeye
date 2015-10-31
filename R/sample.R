@@ -7,7 +7,7 @@ library(sqldf)
 library(plyr)
 #library(tcltk2)
 
-#a <- 1+1
+a <- 1+1
 #a
 #data_po <- read.csv("C:/PROJECT/data_po/data_po.csv")
 projectDir = getwd()
