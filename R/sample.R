@@ -12,9 +12,9 @@ a <- 1+2
 #data_po <- read.csv("C:/PROJECT/data_po/data_po.csv")
 projectDir = getwd()
 
-codeDir <- file.path(projectDir, 'Data')
+DataDir <- file.path(projectDir, 'Data')
 
-data_po <- read.csv(file.path(codeDir,'data_po.csv'))
+data_po <- read.csv(file.path(DataDir,'data_po.csv'))
 
 #View(data_po)
 
